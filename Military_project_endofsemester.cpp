@@ -81,7 +81,7 @@ public:
 };
 
 // ------------------- Soldier -------------------
-class Soldier : public BaseEntity {
+class Soldier : public MilitaryRank {
 private:
     string id;
     string firstName, lastName;
